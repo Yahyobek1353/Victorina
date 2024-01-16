@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_fon"
+    tools:context=".BuyAccout">
+    <WebView
+        android:id="@+id/wb_BuyAccont"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn_support"
+        app:layout_constraintTop_toBottomOf="@id/btn_buyAccount_back"
+        tools:ignore="MissingConstraints"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="40dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_buyAccount_back"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn_press_no_press"
+        tools:ignore="MissingConstraints"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_margin="22dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_support"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn_press_no_press"
+        tools:ignore="MissingConstraints"
+        android:text="support"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_margin="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

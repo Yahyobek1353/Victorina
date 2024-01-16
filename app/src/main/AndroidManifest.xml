@@ -16,6 +16,25 @@
         android:theme="@style/Theme.Victorina"
         tools:targetApi="31">
         <activity
+            android:name=".Logic_game"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PrivacyPolicy"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".BuyAccout"
+            android:exported="false" />
+        <activity
+            android:name=".DonateFF"
+            android:exported="false" />
+        <activity
             android:name=".Menu_Activity"
             android:exported="false" />
         <activity
@@ -31,7 +50,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
+            android:value="ca-app-pub-5079474755134690~2028329128" />
     </application>
 
 </manifest>
